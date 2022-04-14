@@ -1,11 +1,9 @@
 import styled from 'styled-components';
 
+import { Title } from '@components/Header';
+
 const Header = () => {
-  return (
-    <HeaderWrap>
-      <HeaderTitle>😸 고양이 사진 갤러리 😻</HeaderTitle>
-    </HeaderWrap>
-  );
+  return <Title />;
 };
 
 const HeaderWrap = styled.header``;
