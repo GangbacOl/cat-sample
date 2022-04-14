@@ -1,12 +1,13 @@
-import styled from 'styled-components';
-
-import { Title } from '@components/Header';
+import Title from '@components/Header/Title';
+import SearchForm from '@components/Header/Search';
 
 const Header = () => {
-  return <Title />;
+  return (
+    <>
+      <Title />
+      <SearchForm />
+    </>
+  );
 };
-
-const HeaderWrap = styled.header``;
-const HeaderTitle = styled.h2``;
 
 export default Header;
